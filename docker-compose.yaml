@@ -1,0 +1,10 @@
+version: '3'
+services:
+  bot1:
+    build: ./assamnkb_law_chatbot
+    ports:
+      - "5000:5000"
+  bot2:
+    build: ./realestate_chatbot
+    ports:
+      - "5001:5001"
